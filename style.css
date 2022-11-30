@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+body {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+    height: 100vh;
+}
+
+/* rulesets for watch */
+.containerforWatch {
+    width: 400px;
+    height: 400px;
+}
+canvas {
+    position: absolute;
+}
+
+/* rulesets for box with current date */
+.boxCurrentDate {
+    display: flex;
+    height: 4rem;
+}
+.flexboxContentCentered {
+    display: flex;
+    align-items: center;
+}
+.padding {
+    padding: 1rem;
+}
+.borderRight {
+    border-right: 1px solid black;
+}

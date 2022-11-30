@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ger">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Analoge Uhr</title>
+    </head>
+
+    <body>
+        <div class="containerforWatch">
+            <canvas id="indices" width="400" height="400"></canvas>
+            <canvas id="secondHand" width="400" height="400"></canvas>
+            <canvas id="minuteHand" width="400" height="400"></canvas>
+            <canvas id="hourHand" width="400" height="400"></canvas>
+        </div>
+
+        <div class="boxCurrentDate">
+            <div class="flexboxContentCentered padding borderRight">
+                <p id="slotCurrentDay"></p>
+            </div>
+            <div class="flexboxContentCentered padding borderRight">
+                <p id="slotCurrentDate"></p>
+            </div>
+            <div class="flexboxContentCentered padding">
+                <p id="slotCurrentTime"></p>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
